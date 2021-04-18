@@ -26,7 +26,7 @@ article pre code ol li:before {
     position: absolute;
     text-align: right;
     content: attr(data-line-number);
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Consolas,Monaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     width: 1.5rem;
     left: -2.28rem;
     top: 0;
@@ -147,6 +147,7 @@ article pre code ol li:before {
 /*代码格式*/
 .code-format {
     position: relative;
+    font-weight:normal;
 }
 
 /*代码格式after*/
@@ -156,7 +157,7 @@ article pre code ol li:before {
     content: attr(data-code-format);
     top: 0;
     right: .375rem;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Monaco,Consolas,"SFMono-Regular", "Liberation Mono", Menlo, Courier, monospace;
     color: #999999;
     font-size: 0.75rem;
 }
@@ -171,7 +172,7 @@ article pre code ol li:before {
     right: -0.8rem;
     width: 1.8rem;
     height: 1.8rem;
-    border-radius: 50%;
+    border-radius: 20%;
     padding: 0;
     color: #ffffff;
     border: none;
@@ -184,7 +185,7 @@ article pre:hover + .btn-clipboard {
 
 /*上下篇文章字体大小*/
 #prePost, #nextPost {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /*目录按钮样式*/

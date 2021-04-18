@@ -189,7 +189,7 @@ Status: OK
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-    font-family: monospace, monospace;
+    font-family: Consolas,monospace, monospace;
     font-size: 1em;
 }
 
@@ -340,14 +340,14 @@ Status: OK
 }
 
 .markdown-body code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Monaco,Consolas, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 12px;
 }
 
 .markdown-body pre {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Monaco,Consolas, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 12px;
 }
 
@@ -426,7 +426,7 @@ Status: OK
 .markdown-body table,
 .markdown-body pre {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 7px;
 }
 
 .markdown-body hr {
@@ -630,10 +630,12 @@ Status: OK
 }
 
 .markdown-body code {
+    font-family: Consolas,"Source Han Sans SC"!important;
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
-    background-color: rgba(27, 31, 35, 0.05);
+    /* background-color: rgba(27, 31, 35, 0.05); */
+    background-color: #f6f8fa;
     border-radius: 3px;
 }
 
@@ -647,7 +649,7 @@ Status: OK
     font-size: 100%;
     word-break: normal;
     white-space: pre;
-    /*background: transparent;*/
+    /* background: transparent; */
     border: 0;
 }
 
@@ -662,12 +664,12 @@ Status: OK
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    padding: 16px;
+    padding: 10px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    /*background-color: #f6f8fa;*/
-    border-radius: 3px;
+    background-color: #f6f8fa;
+    border-radius: 10px;
 }
 
 .markdown-body pre code {
@@ -690,7 +692,7 @@ Status: OK
 .markdown-body kbd {
     display: inline-block;
     padding: 3px 5px;
-    font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font: 11px Monaco,Consolas,"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     line-height: 10px;
     color: #444d56;
     vertical-align: middle;

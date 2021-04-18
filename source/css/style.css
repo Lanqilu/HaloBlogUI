@@ -37,6 +37,14 @@ div#left{
     padding-right: 3rem!important;
 }
 
+.line-number{
+    font-family: Consolas,"Source Han Sans SC","Courier New", monospace;
+    font-weight: normal;
+    font-size: 0.85rem;
+}
+
+
+
 
 /*
 所有页面的总体样式
